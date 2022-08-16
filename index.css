@@ -1,0 +1,228 @@
+
+
+
+/*common*/
+ul{
+  overflow:hidden;
+}
+li{
+  display:inline-block;
+}
+.widget-container{
+  margin: 0px 0px 0px 35px
+}
+.elementor-icon{fill: var( --e-global-color-accent );
+  color: var( --e-global-color-accent );
+  font-size: 40px;
+  border-color: var( --e-global-color-accent );
+}
+section{
+  margin: 5%;
+  font-family: kosi-body,helveticaneue-light,helvetica neue light,helvetica neue,Helvetica,Arial,lucida grande,sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: yellow;
+}
+/*nav*/
+#navbar-2{
+  background-color: white !important;
+  margin: 0% !important;
+}
+.white{
+  background-color: white !important;
+  margin: 0% !important;
+}
+.navbar-light .navbar-brand {
+  margin: 0% !important;
+  background-color: white !important;
+}
+
+/*home*/
+.image-carousel{
+  height:auto;
+    width: auto;
+}
+.image-1{
+  height: auto;
+  width: auto;
+}
+
+
+/***/
+
+/*product*/
+
+.productImage1{
+  height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    display: none;
+
+}
+.newarrival:hover .productImage1{
+  display: inline;
+
+}
+
+.productImage{
+  height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+.product-attributes {
+    display: flex;
+    margin-bottom: 12px;
+}
+.product-attributes .color-item {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 1%;
+}
+ 
+.woocommerce-Price-amount amount{
+  text-align: left;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color:#D8CFE8;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-1{
+  height: 25px;
+  width: 25px;
+  background-color:#D4E8CF;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-2 {
+  height: 25px;
+  width: 25px;
+  background-color: #FCF6F2;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-3{
+  height: 25px;
+  width: 25px;
+  background-color: #E8E7CF;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+/***/
+.newarrival{
+  background-color: #FCF6F2;
+}
+.imageNewArrivals{
+  height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+.imageNewArrivals:hover{
+  filter: blur(5px);
+}
+
+.newArrivalButton{
+  background-color: transparent;
+    color: var(--accent);
+    border: 2px solid var(--accent);
+    text-decoration: inherit;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-ordinal-group: 11;
+    -ms-flex-order: 10;
+    order: 10;
+    display: inline-block;
+    align-items: center;
+}
+.newarrival{
+  padding: 5%;
+  margin: 5%;
+  
+}
+.newarrival-text{
+  padding: 5%;line-height: 1;
+
+}
+.newarrival-text-h2{
+  font-family: "Kosi-heading", Sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 1.16em;
+}
+newarrival-text-h5 {
+  font-size: 40px;
+  font-family: kosi-heading,helveticaneue-light,helvetica neue light,helvetica neue,Helvetica,Arial,lucida grande,sans-serif;
+  font-weight: 600;
+    line-height: 1.3636363636;
+    margin: 0px 0px 30px 0px
+}
+
+
+
+/***/
+
+.imagegallery{
+  margin: 1%;
+}
+.imagegallerys{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    grid-gap: 10px;
+    
+}
+.imagegallerys::before{content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: #fff;
+  transform: translate(-50%,-50%);
+  transition: all .2s ease;}
+.imagegallerys::after{content: "";
+  width: 2px;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #fff;
+  transition: all .2s ease;
+  transition-delay: .2s;
+}
+
+
+/*footer*/
+
+
+.box-1{
+  margin: 1rem;
+  text-align: center;
+}
