@@ -1,3 +1,18 @@
+.navbar li{
+  display:inline-block;
+}
+.navbar{
+  background-color: #F5E5D7 !important;
+}
+.nav-link{
+  font-size: large;
+  font-weight: bold;
+}
+.navbar a {
+  color: black;
+}
+/**/
+
 .carousel-caption{
   top: 50%;
   transform: translateY(-50%);
@@ -8,120 +23,74 @@
   font-weight: bolder;
 }
 .carouselslide{
-  margin: 3%;
-}
-/*.navbar-nav > .active > a { 
-  background-color: gold ; 
-}*/
-#navbar-2{
-  background-color: white !important;
-  margin-right: 3%;
-  margin-left: 3%;
-
-}
-.navbar li{
-  display:inline-block;
-  margin-left: 1% !important;
-
-
+  background-color: #F5E5D7;
 }
 
-/*product*/
-.product{
+.imagecarousel{
+  margin: 5%;
+  height: fit-content;
+  width: 50%;
+}
+.About{
   margin-top: 5%;
 }
-.productImage1{
-  height: auto;
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
-    transition-duration: .3s;
-    transition-property: transform;
-    transition-timing-function: ease-out;
-    display: none;
-    box-shadow: 10px 10px 5px #fff;
-    -moz-box-shadow: 10px 10px 5px #D4E8CF;
-    -webkit-box-shadow: 10px 10px 5px #ccc;
-    -khtml-box-shadow: 10px 10px 5px #ccc;
+.image-About-1{
+  height: fit-content;
+  width: 90%;
 }
-.newarrival:hover .productImage1{
-  display: inline;
+.About-text{
+  padding-bottom: 2%;
+}
+.product{
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
 
+.text-product{
+  padding-bottom: 2%;
+}
+.text-product h1{
+  padding: 1%;
 }
 
 .productImage{
-  height: auto;
+    height: auto;
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
     transition-duration: .3s;
     transition-property: transform;
     transition-timing-function: ease-out;
+    background-color: white;
+    border-color: #F5E5D7;
+
 }
-.product-attributes {
-    display: flex;
-    margin-bottom: 12px;
-    
-}
-.product-attributes .color-item {
-  position: relative;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  border-radius: 50%;
+
+.imageproducts{
   margin: 1%;
 }
- 
-.woocommerce-Price-amount amount{
-  text-align: left;
-}
 
-.dot {
-  align-items: center !important;
+.whyus{
+  margin-top: 5%;
+  
+}
+.fa-thumbs-up{
+  font-size: 30px;
 
-  height: 25px;
-  width: 25px;
-  background-color:#D8CFE8;
-  border-radius: 50%;
-  display: inline-block;
 }
-.dot-1{
-  align-items: center !important;
-  height: 25px;
-  width: 25px;
-  background-color:#D4E8CF;
-  border-radius: 50%;
-  display: inline-block;
+.fas{
+  font-size: 30px;
+  margin: 5px
 }
-.dot-2 {
-  align-items: center;
-
-  height: 25px;
-  width: 25px;
-  background-color: #FCF6F2;
-  border-radius: 50%;
-  display: inline-block;
-}
-.dot-3{
-  align-items: center;
-
-  height: 25px;
-  width: 25px;
-  background-color: #E8E7CF;
-  border-radius: 50%;
-  display: inline-block;
-}
-.textProduct{
-  text-align: left !important;
-}
-.toppick{
-  padding-top: 3%;
+.whyus h1{
+  padding-bottom: 2%;
 }
 
 /*new arrival*/
 
 .newarrival{
   background-color: #FCF6F2;
+  margin-top: 5%;
 }
 .imageNewArrivals{
   height: auto;
@@ -172,7 +141,6 @@ newarrival-text-h5 {
     line-height: 1.3636363636;
     margin: 0px 0px 30px 0px
 }
-
 /*info*/
 .info{
   margin-top: 5%;
@@ -181,7 +149,9 @@ newarrival-text-h5 {
   color: var( --e-global-color-accent );
   font-size: 40px;
   border-color: var( --e-global-color-accent );
+  
 }
+
 
 /*imagegallery*/
 
@@ -215,34 +185,56 @@ newarrival-text-h5 {
   transition: all .2s ease;
   transition-delay: .2s;
 }
-
 /*footer*/
-.footer{
+.footer-website{
   margin-top: 5%;
 }
-ul{
-  overflow:hidden;
-}
-.footer li{
-  display:inline-block;
-  margin-left: 15%;
+.footer-website li {
+  font-weight: bold;
 }
 
 
+.product-image{
+  margin-bottom: 10px;
+  filter: drop-shadow(5px 5px 5px rgb(165, 158, 158));
+}
+.new{
+  display:grid;
+ grid-column-gap:5% ;
+  grid-row-gap: 5%;
+
+}
+
+/*contact*/
+.contact{
+  margin-top: 5%;
+
+}
 .form{
-  margin: 5%;
+  margin-top: 5%;
+
+
 }
-
-
-.box-1{
-  margin: 1rem;
-  color: black;
-  text-align: center;
-}
-
 
 /**/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
 
+.my-float{
+	margin-top:16px;
+}
 .scroll-up-btn{
   position: fixed;
   height: 45px;
@@ -264,23 +256,4 @@ ul{
   bottom: 30px;
   opacity: 1;
   pointer-events: auto;
-}
-
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-}
-
-.my-float{
-	margin-top:16px;
 }
