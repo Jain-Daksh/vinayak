@@ -1,62 +1,35 @@
-
-
-
-/*common*/
-ul{
-  overflow:hidden;
+.carousel-caption{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+  left: 60%;
+  color: black;
+  font-size: large;
+  font-weight: bolder;
 }
-li{
-  display:inline-block;
+.carouselslide{
+  margin: 3%;
 }
-.widget-container{
-  margin: 0px 0px 0px 35px
-}
-.elementor-icon{fill: var( --e-global-color-accent );
-  color: var( --e-global-color-accent );
-  font-size: 40px;
-  border-color: var( --e-global-color-accent );
-}
-section{
-  margin: 5%;
-  font-family: kosi-body,helveticaneue-light,helvetica neue light,helvetica neue,Helvetica,Arial,lucida grande,sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-}
-a{
-  text-decoration: none;
-}
-a:hover{
-  color: yellow;
-}
-/*nav*/
+/*.navbar-nav > .active > a { 
+  background-color: gold ; 
+}*/
 #navbar-2{
   background-color: white !important;
-  margin: 0% !important;
-}
-.white{
-  background-color: white !important;
-  margin: 0% !important;
-}
-.navbar-light .navbar-brand {
-  margin: 0% !important;
-  background-color: white !important;
-}
+  margin-right: 3%;
+  margin-left: 3%;
 
-/*home*/
-.image-carousel{
-  height:auto;
-    width: auto;
 }
-.image-1{
-  height: auto;
-  width: auto;
-}
+.navbar li{
+  display:inline-block;
+  margin-left: 1% !important;
 
 
-/***/
+}
 
 /*product*/
-
+.product{
+  margin-top: 5%;
+}
 .productImage1{
   height: auto;
     max-width: 100%;
@@ -66,7 +39,10 @@ a:hover{
     transition-property: transform;
     transition-timing-function: ease-out;
     display: none;
-
+    box-shadow: 10px 10px 5px #fff;
+    -moz-box-shadow: 10px 10px 5px #D4E8CF;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 .newarrival:hover .productImage1{
   display: inline;
@@ -85,6 +61,7 @@ a:hover{
 .product-attributes {
     display: flex;
     margin-bottom: 12px;
+    
 }
 .product-attributes .color-item {
   position: relative;
@@ -100,6 +77,8 @@ a:hover{
 }
 
 .dot {
+  align-items: center !important;
+
   height: 25px;
   width: 25px;
   background-color:#D8CFE8;
@@ -107,6 +86,7 @@ a:hover{
   display: inline-block;
 }
 .dot-1{
+  align-items: center !important;
   height: 25px;
   width: 25px;
   background-color:#D4E8CF;
@@ -114,6 +94,8 @@ a:hover{
   display: inline-block;
 }
 .dot-2 {
+  align-items: center;
+
   height: 25px;
   width: 25px;
   background-color: #FCF6F2;
@@ -121,15 +103,23 @@ a:hover{
   display: inline-block;
 }
 .dot-3{
+  align-items: center;
+
   height: 25px;
   width: 25px;
   background-color: #E8E7CF;
   border-radius: 50%;
   display: inline-block;
 }
+.textProduct{
+  text-align: left !important;
+}
+.toppick{
+  padding-top: 3%;
+}
 
+/*new arrival*/
 
-/***/
 .newarrival{
   background-color: #FCF6F2;
 }
@@ -183,12 +173,20 @@ newarrival-text-h5 {
     margin: 0px 0px 30px 0px
 }
 
+/*info*/
+.info{
+  margin-top: 5%;
+}
+.elementor-icon{fill: var( --e-global-color-accent );
+  color: var( --e-global-color-accent );
+  font-size: 40px;
+  border-color: var( --e-global-color-accent );
+}
 
-
-/***/
+/*imagegallery*/
 
 .imagegallery{
-  margin: 1%;
+  margin-top: 5%;
 }
 .imagegallerys{
     height: 100%;
@@ -218,11 +216,26 @@ newarrival-text-h5 {
   transition-delay: .2s;
 }
 
-
 /*footer*/
+.footer{
+  margin-top: 5%;
+}
+ul{
+  overflow:hidden;
+}
+.footer li{
+  display:inline-block;
+  margin-left: 15%;
+}
+
+
+.form{
+  margin: 5%;
+}
 
 
 .box-1{
   margin: 1rem;
+  color: black;
   text-align: center;
 }
