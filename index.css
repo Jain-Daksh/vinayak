@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+body {
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+
 .navbar li{
   display:inline-block;
 }
@@ -67,7 +74,7 @@
 }
 
 .imageproducts{
-  margin: 1%;
+  margin-bottom: 1%;
 }
 
 .whyus{
@@ -120,7 +127,6 @@
     align-items: center;
 }
 .newarrival{
-  padding: 5%;
   margin: 5%;
   
 }
@@ -129,14 +135,19 @@
 
 }
 .newarrival-text-h2{
-  font-family: "Kosi-heading", Sans-serif;
   font-size: 55px;
   font-weight: 600;
   line-height: 1.16em;
 }
+.newarrival-text-h6{
+  font-size: 30px;
+
+  font-weight: 400;
+  line-height: 1.16em;
+}
 newarrival-text-h5 {
   font-size: 40px;
-  font-family: kosi-heading,helveticaneue-light,helvetica neue light,helvetica neue,Helvetica,Arial,lucida grande,sans-serif;
+
   font-weight: 600;
     line-height: 1.3636363636;
     margin: 0px 0px 30px 0px
@@ -151,7 +162,9 @@ newarrival-text-h5 {
   border-color: var( --e-global-color-accent );
   
 }
-
+.info-para{
+  color: gray;
+}
 
 /*imagegallery*/
 
@@ -185,6 +198,14 @@ newarrival-text-h5 {
   transition: all .2s ease;
   transition-delay: .2s;
 }
+figcaption{
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+
+
 /*footer*/
 .footer-website{
   margin-top: 5%;
@@ -196,7 +217,7 @@ newarrival-text-h5 {
 
 .product-image{
   margin-bottom: 10px;
-  filter: drop-shadow(5px 5px 5px rgb(165, 158, 158));
+  filter: drop-shadow(5px 5px 5px rgb(218, 189, 189));
 }
 .new{
   display:grid;
