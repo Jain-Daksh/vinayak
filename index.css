@@ -5,8 +5,10 @@ body {
 }
 
 
+
 .navbar li{
   display:inline-block;
+  
 }
 .navbar{
   background-color: #F5E5D7 !important;
@@ -40,6 +42,14 @@ body {
 }
 .About{
   margin-top: 5%;
+}
+.about-text-para{
+  font-size: 16px;
+  font-weight: 300;
+  
+}
+.about-text-heading{
+  margin-bottom: 3%;
 }
 .image-About-1{
   height: fit-content;
@@ -277,4 +287,15 @@ figcaption{
   bottom: 30px;
   opacity: 1;
   pointer-events: auto;
+}
+/*logos*/
+
+.whyusheading{
+font-weight: bold;
+}
+.whyuspara{
+  color: gray;
+}
+.whyuscontant{
+  text-align: center;
 }
