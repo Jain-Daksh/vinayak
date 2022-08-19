@@ -16,7 +16,7 @@ export default function Home() {
   return (
   <div>
     <Head>
-      <title></title>
+      <title>Vinayak Steel Furniture</title>
     </Head>
     <Navbar />
     <HomePage />
