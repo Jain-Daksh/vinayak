@@ -1,0 +1,10 @@
+
+.elementor-icon{fill: var( --e-global-color-accent );
+  color: var( --e-global-color-accent );
+  font-size: 40px;
+  border-color: var( --e-global-color-accent );
+  
+}
+.info-para{
+  color: gray;
+}

@@ -1,0 +1,40 @@
+.logo{
+  height: 80px;
+  width: 80px;
+  
+}
+
+
+.navbar li{
+  display:inline-block;
+  
+}
+.navbar{
+  background-color: #F5E5D7 !important;
+}
+.nav-link{
+  font-size: large;
+  font-weight: bold;
+}
+.navbar a {
+  color: black !important;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:39px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:35px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:17px;
+}

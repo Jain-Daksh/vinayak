@@ -1,0 +1,28 @@
+.whyus{
+  margin-top: 5%;
+  
+}
+.fa-thumbs-up{
+  font-size: 30px;
+  margin: 5px
+
+}
+.fas{
+  font-size: 30px;
+  margin: 5px
+}
+.whyus h1{
+  padding-bottom: 2%;
+}
+.whyusheading{
+  font-weight: bold;
+  }
+  .whyuspara{
+    color: gray;
+  }
+  .whyuscontant{
+    text-align: center;
+  }
+  .whyusmainheading{
+    padding: 3%;
+  }
