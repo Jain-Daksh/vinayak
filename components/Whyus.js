@@ -34,7 +34,7 @@ function Whyus() {
                 <div className="card-body whyuscontant">
                   < FontAwesomeIcon icon={faShippingFast} className={"fas fa-shipping-fast"} ></FontAwesomeIcon>
                   <h5 className="card-title whyusheading">Guarantee Shipping</h5>
-                  <p className="card-title whyuspara">Your shipment will be delievered exactly where you specify.</p>
+                  <p className="card-title whyuspara">Your shipment will be delievered exactly where you have specify.</p>
                 </div>
               </div>
             </div>

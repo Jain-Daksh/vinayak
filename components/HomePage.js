@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Image1 from '../public/sofa.png'
-import Image2 from '../public/stool.png'
+import Image2 from '../public/1.png'
 function HomePage() {
   return (
     <div>

@@ -9,14 +9,14 @@ function FooterWebsite() {
       <section className="footer-website">
         <div className="container">
           <div className="row">
-            <div className="col-lg-9">
+            <div className="col-lg-10 col-md-8 col-sm-12 col-xs-12">
               <Image src={Image1} alt="logo" className='footerlogo' height={75} width={250}></Image>
 
 
 
             </div>
 
-            <div className="col-lg-3  justify-content-end">
+            <div className="col-lg-2 col-md-4 col-sm-12 col-xs-12  justify-content-end">
               <ul className="list-inline mb-0 mt-3">
                 <li className="list-inline-item btn btn-white btn-sm shadow px-2 text-facebook" href="#"><Facebook></Facebook> </li>
                 <li className="list-inline-item btn btn-white btn-sm shadow px-2 text-instagram" href="#"><Instagram ></Instagram></li>
