@@ -4,7 +4,8 @@
   margin-top: 5%;
 }
 .imageNewArrivals{
-  height: auto;
+  padding-top: 5% !important;
+    height: auto;
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
@@ -35,7 +36,7 @@
   
 }
 .newarrival-text{
-  padding: 5%;line-height: 1;
+  padding: 5%;line-height: 1.5;
 
 }
 .newarrival-text-h2{
@@ -64,4 +65,10 @@ newarrival-text-h5 {
 
 .buttonnewarrival:hover{
   background-color: cadetblue;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+
 }
