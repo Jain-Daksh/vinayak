@@ -1,3 +1,4 @@
+/*
 import React from 'react'
 import Image from 'next/image'
 import Image1 from '../public/home3.jpg'
@@ -75,6 +76,17 @@ function HomePage() {
         </div>
       </section>
     </div>
+  )
+}
+
+export default HomePage
+*/
+
+import React from 'react'
+
+function HomePage() {
+  return (
+    <div></div>
   )
 }
 
