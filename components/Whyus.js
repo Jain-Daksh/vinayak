@@ -11,7 +11,7 @@ function Whyus() {
             <h1 className='whyusmainheading'> Benefits for using our services</h1>
           </div>
           <div className="row">
-            <div className="col col-sm-12 col-xs-12 col-md-4">
+            <div className="col col-sm-12 col-xs-12 col-md-4 col-12">
               <div className="card card-size">
                 <div className="card-body whyuscontant">
                   < FontAwesomeIcon icon={faThumbsUp} className={"fa fa-thumbs-up shape"} ></FontAwesomeIcon>
@@ -20,7 +20,7 @@ function Whyus() {
                 </div>
               </div>
             </div>
-            <div className="col col-sm-12 col-xs-12 col-md-4">
+            <div className="col col-sm-12 col-xs-12 col-md-4 col-12">
               <div className="card card-size">
                 <div className="card-body whyuscontant">
                   < FontAwesomeIcon icon={faMedal} className={"fas fa-medal"} ></FontAwesomeIcon>
@@ -29,7 +29,7 @@ function Whyus() {
                 </div>
               </div>
             </div>
-            <div className="col col-sm-12 col-xs-12 col-md-4">
+            <div className="col col-sm-12 col-xs-12 col-md-4 col-12">
               <div className="card card-size">
                 <div className="card-body whyuscontant">
                   < FontAwesomeIcon icon={faShippingFast} className={"fas fa-shipping-fast"} ></FontAwesomeIcon>

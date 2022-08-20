@@ -1,15 +1,13 @@
-/*
 import React from 'react'
 import Image from 'next/image'
-import Image1 from '../public/home3.jpg'
-import Image3 from  '../public/homepage1 (1).png'
-import Image4 from  '../public/Rack-PNG-Image.png'
-import Image5 from  '../public/bookshelf-modular-bookcase-14934.png'
-import Image7 from  '../public/image-test1.png'
+import Image1 from '../public/homepage2-removebg-preview.png'
+import Image2 from '../public/bookshelf-modular-bookcase-14934.png'
+import Image3 from '../public/homepage3-removebg-preview.png'
+import Image4 from '../public/123-removebg-preview.png'
 
 function HomePage() {
   return (
-    <div className='homediv'>
+    <div className='homepagediv'>
       <section className="carouselslide" id='colorCarousel' >
         <div id="demo" className="carousel slide" data-bs-ride="carousel">
 
@@ -24,45 +22,77 @@ function HomePage() {
 
           <div className="carousel-inner">
             <div className="carousel-item active">
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-12 col-sm-6 col-md-5 homepagetext1'>
+                    <Image src={Image2} alt="logo" height={940} className='d-block imagecarousel image-1' id='image-1'></Image>
+                  </div>
+                  <div className='col-12 col-sm-6 col-xs-12 col-md-7 align-self-center text-center homepagetext'>
+                    <div className='container '>
+                      <h1 class="align-self-start ">Book shelf</h1>
+                      <br></br>
+                      <h6 class="align-self-center homepage-text-heading">High Quality , Stylish bookshelf by Vinayak
+                      </h6>
+                      <div class="align-self-end hoempagebutton"><button type="button" className="btn btn-dark buttoncrousel"><a href="https://api.whatsapp.com/send?phone=919694985000&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." target="_blank">Order Now</a></button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-              <Image src={Image5} alt="logo" className='d-block imagecarousel' ></Image>
-              <div className="carousel-caption">
-                <h1>Vinayak's Premium</h1>
-                <h1> Bookshelf</h1>
-                <button type="button" className="btn btn-dark buttoncrousel">Order Now</button>
-              </div>
-            </div>
-         
             <div className="carousel-item">
-              <Image src={Image7} alt="logo" className='d-block imagecarousel' ></Image>
-              <div className="carousel-caption">
-                <h1>Vinayak's Premium</h1>
-                <h1>Bunker Bed</h1>
-                <button type="button" className="btn btn-dark buttoncrousel">Order Now</button>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <Image src={Image4} alt="logo" className='d-block imagecarousel' ></Image>
-              <div className="carousel-caption">
-                <h1>Vinayak's Premium</h1>
-                <h1>Rack</h1>
-                <button type="button" className="btn btn-dark buttoncrousel">Order Now</button>
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-12 col-sm-6 col-md-5 homepagetext1'>
+                    <Image src={Image1} alt="logo" height={627} className='d-block imagecarousel image-1' id='image-1'></Image>
+                  </div>
+                  <div className='col-12 col-sm-6 col-xs-12 col-md-7 align-self-center text-center homepagetext'>
+                    <div className='container '>
+                      <h1 class="align-self-start ">Rack</h1>
+                      <br></br>
+                      <h6 class="align-self-center homepage-text-heading">High Quality , Stylish Rack by Vinayak
+                      </h6>
+                      <div class="align-self-end hoempagebutton"><button type="button" className="btn btn-dark buttoncrousel"><a href="https://api.whatsapp.com/send?phone=919694985000&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." target="_blank">Order Now</a></button></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="carousel-item">
-              <Image src={Image1} alt="logo" className='d-block imagecarousel' ></Image>
-              <div className="carousel-caption">
-                <h1>Vinayak's Premium</h1>
-                <h1>Locker</h1>
-                <button type="button" className="btn btn-dark buttoncrousel">Order Now</button>
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-12 col-sm-6 col-md-5 homepagetext1'>
+                    <Image src={Image3} alt="logo" height={498} className='d-block imagecarousel image-1' id='image-1'></Image>
+                  </div>
+                  <div className='col-12 col-sm-6 col-xs-12 col-md-7 align-self-center text-center homepagetext'>
+                    <div className='container '>
+                      <h1 class="align-self-start ">Steel Almirah</h1>
+                      <br></br>
+                      <h6 class="align-self-center homepage-text-heading">High Quality , Stylish Steel Almirah by Vinayak
+                      </h6>
+                      <div class="align-self-end hoempagebutton"><button type="button" className="btn btn-dark buttoncrousel"><a href="https://api.whatsapp.com/send?phone=919694985000&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." target="_blank">Order Now</a></button></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+
             <div className="carousel-item">
-              <Image src={Image3} alt="logo" className='d-block imagecarousel' ></Image>
-              <div className="carousel-caption">
-                <h1>Vinayak's Premium</h1>
-                <h1>Locker</h1>
-                <button type="button" className="btn btn-dark buttoncrousel" style={{margin:6}}>Order Now</button>
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-12 col-sm-6 col-md-5 homepagetext1'>
+                    <Image src={Image4} alt="logo" height={533} className='d-block imagecarousel image-1' id='image-1'></Image>
+                  </div>
+                  <div className='col-12 col-sm-6 col-xs-12 col-md-7 align-self-center text-center homepagetext'>
+                    <div className='container '>
+                      <h1 class="align-self-start ">Locker</h1>
+                      <br></br>
+                      <h6 class="align-self-center homepage-text-heading">High Quality , Stylish steel Locker by Vinayak
+                      </h6>
+                      <div class="align-self-end hoempagebutton"><button type="button" className="btn btn-dark buttoncrousel"><a href="https://api.whatsapp.com/send?phone=919694985000&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." target="_blank">Order Now</a></button></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -76,17 +106,6 @@ function HomePage() {
         </div>
       </section>
     </div>
-  )
-}
-
-export default HomePage
-*/
-
-import React from 'react'
-
-function HomePage() {
-  return (
-    <div></div>
   )
 }
 

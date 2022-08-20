@@ -9,18 +9,7 @@
 }
 .carouselslide{
   background-color: #F5E5D7;
-  margin-top: 0% !important;
-  margin-left: 5% !important;
-  margin-right: 5% !important;
-}
-.homediv{
-  background-color: #F5E5D7;
-
-}
-.imagecarousel{
-  margin: 5%;
-  height: fit-content;
-  width: 100%;
+  
 }
 
 .buttoncrousel{
@@ -29,13 +18,36 @@
   font-size: 18px;
 }
 
-.carouselslide{
+.homepagediv{
   background-color: #F5E5D7 !important;
 }
 
 #colorCarousel{
   background-color: #F5E5D7 !important;
+
 }
 #colorCarousel{
-  margin: 0% !important;
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+  margin-top: 0% !important;
+}
+
+
+.homepagetext{
+line-height: 1.5;
+font-weight: bold;
+}
+
+.homepage-text-heading{
+  padding: 1%;
+  line-height: 2;
+}
+
+.hoempagebutton{
+  padding: 5%;
+}
+
+.hoempagebutton{
+  position: relative;
+  bottom: 50%;
 }

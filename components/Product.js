@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Image1 from '../public/bookshelf1.png'
+import Image1 from '../public/steel-bookcase-10.webp'
 import Image2 from '../public/test.png'
 import Image3 from '../public/pngwing.com (3).png'
 import Image4 from '../public/almari3.png'

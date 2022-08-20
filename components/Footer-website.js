@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Image1 from '../public/logo1.png'
-import { Facebook, Instagram, Twitter, Dribbble } from 'react-bootstrap-icons';
+import { Facebook, Instagram, Whatsapp } from 'react-bootstrap-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 function FooterWebsite() {
   return (
@@ -20,8 +20,8 @@ function FooterWebsite() {
               <ul className="list-inline mb-0 mt-3">
                 <li className="list-inline-item btn btn-white btn-sm shadow px-2 text-facebook" href="#"><Facebook></Facebook> </li>
                 <li className="list-inline-item btn btn-white btn-sm shadow px-2 text-instagram" href="#"><Instagram ></Instagram></li>
-                <li className="list-inline-item btn btn-white btn-sm shadow px-2 text-twitter" href="#"><Twitter ></Twitter></li>
-                <li className="list-inline-item btn btn-white btn-sm shadow px-2 text-dribbble" href="#"><Dribbble ></Dribbble></li>
+                <li className="list-inline-item btn btn-white btn-sm shadow px-2 text-whatsapp" href="#"><Whatsapp ></Whatsapp></li>
+
               </ul>
             </div>
           </div>
