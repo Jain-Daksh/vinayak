@@ -3,7 +3,14 @@
   width: 80px;
 }
 .navbarheader{
-	margin: 0% !important;
+	margin-top: 0% !important;
+	margin-left: 5% !important;
+	margin-right: 5% !important;
+	
+}
+.navbardiv{
+	background-color: #F5E5D7 !important;
+
 }
 .navbar-collapse{
 	padding-left: 1%;

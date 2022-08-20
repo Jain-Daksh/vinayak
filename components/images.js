@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import Image1 from '../public/gallery_05-1.jpg'
-import Image2 from '../public/gallery_03-1.jpg'
-import Image3 from '../public/gallery_01-2.jpg'
-import Image4 from '../public/gallery_02-1.jpg'
-import Image5 from '../public/gallery_04-1.jpg'
-import Image6 from '../public/gallery_06-1.jpg'
+import Image1 from '../public/table.jpg'
+import Image5 from '../public/rack1.jpg'
+import Image3 from '../public/schooltable.jpg'
+import Image4 from '../public/glassdoor.jpg'
+import Image2 from '../public/stool.webp'
+import Image6 from '../public/chair.webp'
 function Images() {
   return (
     <div>

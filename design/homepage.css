@@ -9,9 +9,14 @@
 }
 .carouselslide{
   background-color: #F5E5D7;
-  margin: 0% !important;
+  margin-top: 0% !important;
+  margin-left: 5% !important;
+  margin-right: 5% !important;
 }
+.homediv{
+  background-color: #F5E5D7;
 
+}
 .imagecarousel{
   margin: 5%;
   height: fit-content;

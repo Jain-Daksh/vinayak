@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Image1 from '../public/ba2b0e898c6f932035acaa5a941fe1c8 (1).png'
+import Image1 from '../public/home3.jpg'
 import Image3 from  '../public/homepage1 (1).png'
 import Image4 from  '../public/Rack-PNG-Image.png'
 import Image5 from  '../public/bookshelf-modular-bookcase-14934.png'
@@ -8,7 +8,7 @@ import Image7 from  '../public/image-test1.png'
 
 function HomePage() {
   return (
-    <div>
+    <div className='homediv'>
       <section className="carouselslide" id='colorCarousel' >
         <div id="demo" className="carousel slide" data-bs-ride="carousel">
 

@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Image1 from '../public/output-onlinepngtools.png'
 function Navbar() {
   return (
-    <div>
+    <div className='navbardiv'>
       <section className='navbarheader'>
         <Nav className="navbar navbar-expand-lg navbar-light bg-light" id="navbar-2">
           <div className="container-fluid">
