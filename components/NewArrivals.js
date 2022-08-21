@@ -18,7 +18,7 @@ function NewArrivals() {
                 <br></br>
                 <h6 className="newarrival-text-h6">Limited edition</h6>
                 <br></br>
-                <button type="button" className="btn btn-dark buttonnewarrival"><a href="https://api.whatsapp.com/send?phone=919694985000&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." target="_blank">Order Now</a></button>
+                <button type="button" className="btn btn-dark buttonnewarrival"><a href="https://api.whatsapp.com/send?phone=919694985000" target="_blank">Order Now</a></button>
               </div>
             </div>
           </div>

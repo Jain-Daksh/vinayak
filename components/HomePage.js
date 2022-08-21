@@ -33,7 +33,7 @@ function HomePage() {
                       <br></br>
                       <h6 class="align-self-center homepage-text-heading">High Quality , Stylish bookshelf by Vinayak
                       </h6>
-                      <div class="align-self-end hoempagebutton"><button type="button" className="btn btn-dark buttoncrousel"><a href="https://api.whatsapp.com/send?phone=919694985000&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." target="_blank">Order Now</a></button></div>
+                      <div class="align-self-end hoempagebutton"><button type="button" className="btn btn-dark buttoncrousel"><a href="https://api.whatsapp.com/send?phone=919694985000" target="_blank">Order Now</a></button></div>
                     </div>
                   </div>
                 </div>
@@ -52,7 +52,7 @@ function HomePage() {
                       <br></br>
                       <h6 class="align-self-center homepage-text-heading">High Quality , Stylish Rack by Vinayak
                       </h6>
-                      <div class="align-self-end hoempagebutton"><button type="button" className="btn btn-dark buttoncrousel"><a href="https://api.whatsapp.com/send?phone=919694985000&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." target="_blank">Order Now</a></button></div>
+                      <div class="align-self-end hoempagebutton"><button type="button" className="btn btn-dark buttoncrousel"><a href="https://api.whatsapp.com/send?phone=919694985000" target="_blank">Order Now</a></button></div>
                     </div>
                   </div>
                 </div>
@@ -70,7 +70,7 @@ function HomePage() {
                       <br></br>
                       <h6 class="align-self-center homepage-text-heading">High Quality , Stylish Steel Almirah by Vinayak
                       </h6>
-                      <div class="align-self-end hoempagebutton"><button type="button" className="btn btn-dark buttoncrousel"><a href="https://api.whatsapp.com/send?phone=919694985000&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." target="_blank">Order Now</a></button></div>
+                      <div class="align-self-end hoempagebutton"><button type="button" className="btn btn-dark buttoncrousel"><a href="https://api.whatsapp.com/send?phone=919694985000" target="_blank">Order Now</a></button></div>
                     </div>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ function HomePage() {
                       <br></br>
                       <h6 class="align-self-center homepage-text-heading">High Quality , Stylish steel Locker by Vinayak
                       </h6>
-                      <div class="align-self-end hoempagebutton"><button type="button" className="btn btn-dark buttoncrousel"><a href="https://api.whatsapp.com/send?phone=919694985000&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." target="_blank">Order Now</a></button></div>
+                      <div class="align-self-end hoempagebutton"><button type="button" className="btn btn-dark buttoncrousel"><a href="https://api.whatsapp.com/send?phone=919694985000" target="_blank">Order Now</a></button></div>
                     </div>
                   </div>
                 </div>
