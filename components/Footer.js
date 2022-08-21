@@ -12,10 +12,10 @@ function Footer() {
 
             <div className="col col-md-3 col-sm-12 col-xs-12 justify-content-end ">
               <ul className="list-inline mb-0 mt-3 ">
-                <li className="list-inline-item "> Home </li>
-                <li className="list-inline-item">About </li>
-                <li className="list-inline-item">Product </li>
-                <li className="list-inline-item">Contact </li>
+                <li className="list-inline-item "> <a href='#'> Home </a> </li>
+                <li className="list-inline-item"> <a href='#about'>About </a></li>
+                <li className="list-inline-item"><a href='#product'> Product </a></li>
+                <li className="list-inline-item"> <a href='#contact'> Contact </a></li>
               </ul>
 
             </div>

@@ -33,7 +33,9 @@
 }
 .newarrival{
   margin: 5%;
-  
+  margin-left: 7%;
+  margin-right: 7%;
+
 }
 .newarrival-text{
   padding: 5%;line-height: 1.5;
