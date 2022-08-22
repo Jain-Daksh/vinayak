@@ -16,7 +16,6 @@ function HomePage() {
             <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
             <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
             <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
 
           </div>
 
@@ -34,6 +33,7 @@ function HomePage() {
                       <h6 class="align-self-center homepage-text-heading">High Quality , Stylish bookshelf by Vinayak
                       </h6>
                       <div class="align-self-end hoempagebutton"><button type="button" className="btn btn-dark buttoncrousel"><a href="https://api.whatsapp.com/send?phone=919694985000" target="_blank">Order Now</a></button></div>
+                      <br></br>
                     </div>
                   </div>
                 </div>
@@ -53,6 +53,7 @@ function HomePage() {
                       <h6 class="align-self-center homepage-text-heading">High Quality , Stylish Rack by Vinayak
                       </h6>
                       <div class="align-self-end hoempagebutton"><button type="button" className="btn btn-dark buttoncrousel"><a href="https://api.whatsapp.com/send?phone=919694985000" target="_blank">Order Now</a></button></div>
+                      <br></br>
                     </div>
                   </div>
                 </div>
@@ -71,6 +72,7 @@ function HomePage() {
                       <h6 class="align-self-center homepage-text-heading">High Quality , Stylish Steel Almirah by Vinayak
                       </h6>
                       <div class="align-self-end hoempagebutton"><button type="button" className="btn btn-dark buttoncrousel"><a href="https://api.whatsapp.com/send?phone=919694985000" target="_blank">Order Now</a></button></div>
+                      <br></br>
                     </div>
                   </div>
                 </div>
@@ -90,6 +92,7 @@ function HomePage() {
                       <h6 class="align-self-center homepage-text-heading">High Quality , Stylish steel Locker by Vinayak
                       </h6>
                       <div class="align-self-end hoempagebutton"><button type="button" className="btn btn-dark buttoncrousel"><a href="https://api.whatsapp.com/send?phone=919694985000" target="_blank">Order Now</a></button></div>
+                      <br></br>
                     </div>
                   </div>
                 </div>
