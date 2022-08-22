@@ -25,7 +25,7 @@ export default function Slider() {
       <section className="slidername">
         <OwlCarousel>
         <div className="item">
-          <Image src={Image1} alt="logo" className='imagegallerys'></Image>
+          <Image src={Image1} alt="logo"  className='imagegallerys'></Image>
         </div>
           <div className="item">
         <Image src={Image2} alt="logo" className='imagegallerys'></Image>
