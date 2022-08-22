@@ -30,7 +30,6 @@ function Product() {
               <div className="row-cols-1 col-md-3 .col-sm-12">
                 <Image src={Image5} alt="logo" className='imagegallerys'></Image>
                 <figcaption>Chair</figcaption>
-
               </div>
               <div className="row-cols-1 col-md-3 .col-sm-12">
                 <Image src={Image7} alt="logo" className='imagegallerys'></Image>

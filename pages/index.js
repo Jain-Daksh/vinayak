@@ -12,6 +12,7 @@ import Contactus from '../components/Contactus'
 import Images from '../components/images'
 import FooterWebsite from '../components/Footer-website'
 import Footer from '../components/Footer'
+import Slider from '../components/Slider'
 export default function Home() {
   return (
   <div>
@@ -25,7 +26,7 @@ export default function Home() {
     <Whyus />
     <NewArrivals />
     <Info />
-    <Images />
+    <Slider />
     <Contactus />
     <FooterWebsite />
     <Footer />

@@ -10,6 +10,7 @@ import '../design/info.css'
 import '../design/footer.css'
 import '../design/images.css'
 import '../design/homepage.css'
+import '../design/slider.css'
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     require('bootstrap/dist/js/bootstrap.bundle.min.js');
