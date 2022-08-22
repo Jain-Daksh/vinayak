@@ -2,12 +2,15 @@ import React from 'react'
 import Image from 'next/image'
 import Image1 from '../public/steel-bookcase-10.webp'
 import Image2 from '../public/test.png'
+import Image9 from '../public/homepage5.jpg'
 import Image3 from '../public/pngwing.com (3).png'
 import Image4 from '../public/almari3.png'
 import Image5 from '../public/chair.webp'
 import Image6 from '../public/schooltable.jpg'
 import Image7 from '../public/stool.png'
 import Image8 from '../public/rack1.jpg'
+import Image10 from '../public/123-removebg-preview.png'
+import Image11 from '../public/rack2-removebg-preview.png'
 
 function Product() {
   return (
@@ -25,11 +28,6 @@ function Product() {
           <div className="container new">
             <div className="row gx-4">
               <div className="row-cols-1 col-md-3 .col-sm-12">
-                <Image src={Image1} alt="logo" className='imagegallerys'></Image>
-                <figcaption>Bookshelf</figcaption>
-
-              </div>
-              <div className="row-cols-1 col-md-3 .col-sm-12">
                 <Image src={Image5} alt="logo" className='imagegallerys'></Image>
                 <figcaption>Chair</figcaption>
 
@@ -44,10 +42,15 @@ function Product() {
                 <figcaption>Almirah</figcaption>
 
               </div>
+              <div className="row-cols-1 col-md-3 .col-sm-12">
+                <Image src={Image11} alt="logo" className='imagegallerys'></Image>
+                <figcaption>Rack</figcaption>
+
+              </div>
             </div>
             <div className="row">
               <div className="row-cols-1 col-md-3 .col-sm-12">
-                <Image src={Image2} alt="logo" className='imagegallerys'></Image>
+                <Image src={Image10} alt="logo" className='imagegallerys'></Image>
                 <figcaption>Locker </figcaption>
 
               </div>

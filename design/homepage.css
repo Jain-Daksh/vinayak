@@ -51,3 +51,8 @@ font-weight: bold;
   position: relative;
   bottom: 50%;
 }
+
+
+.carousel-inner{
+  height: fit-content;
+}
