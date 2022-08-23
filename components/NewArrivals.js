@@ -49,8 +49,8 @@ function NewArrivals() {
               </div>
               <div className=' col-lg-6 col-md-6 col-sm-12 col-xs-12 text-new'>
                 <h5 className="newarrival-text-h5">NEW ARRIVALS</h5>
-                <h5 className="newarrival-text-h5">Foldable Table</h5>
-                <h6 className="newarrival-text-h6"> Laptop Foldable Metal Portable Laptop Table</h6>
+                <h4 className="newarrival-text-h5">Foldable Table</h4>
+                <h6 className="newarrival-text-h6"> Laptop Foldable Metal Portable <spam>Laptop Table </spam></h6>
                 <br></br>
 
                 <h6 className="newarrival-text-h6">Limited edition</h6>

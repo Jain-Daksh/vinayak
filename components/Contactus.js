@@ -16,7 +16,7 @@ function Contactus() {
               </p>
               <p className="inline">
                 <Phone  className="fa fa-phone contacticon"></Phone>
-                096949 85000
+                <a href="tel:+919694985000">096949 85000</a>
               </p>
 
             </div>

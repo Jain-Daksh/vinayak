@@ -1,6 +1,6 @@
 import React from 'react'
 import { Nav, Button, Container } from 'react-bootstrap';
-import { Whatsapp } from 'react-bootstrap-icons';
+import { Whatsapp , Facebook } from 'react-bootstrap-icons';
 
 import Image from 'next/image';
 import Image1 from '../public/output-onlinepngtools.png'
@@ -33,9 +33,14 @@ function Navbar() {
           </div>
         </Nav>
 
-        <a href="https://api.whatsapp.com/send?phone=919694985000" class="float" target="_blank">
+        <div class="icon-bar">
+          <a href="https://www.facebook.com/vinayaksteelfurniture/" class="facebook"> 
+          <Facebook className="fa fa-facebook my-float"></Facebook>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=919694985000" class="float whatsapp" target="_blank">
           <Whatsapp className='class="fa fa-whatsapp my-float"'></Whatsapp>
         </a>
+        </div>
       </section>
     </div >
   )
