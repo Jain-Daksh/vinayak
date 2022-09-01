@@ -48,12 +48,12 @@ function NewArrivals() {
               <Image src={Image1} alt="" className='imageNewArrivals'></Image>
               </div>
               <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5'>
-                <h5 className="newarrival-text-h5 heading">NEW ARRIVALS</h5>
+                <h className=" heading">NEW ARRIVALS</h>
                 <h4 className="newarrival-text-h5 mt-3 newarrival-heading">Foldable Table</h4>
                 <h3 className="newarrival-text-h6 mt-2 newarrival-heading"> Laptop Foldable Metal Portable <spam>Laptop Table </spam></h3>
                 <br></br>
 
-                <h6 className="newarrival-text-h6 heading">Limited edition</h6>
+                <h6 className="heading">Limited edition</h6>
                 <br></br>
                 <button type="button" className="btn btn-dark buttonnewarrival mt-3 mb-3"><a href="https://api.whatsapp.com/send?phone=919694985000" target="_blank">Order Now</a></button>
               </div>
