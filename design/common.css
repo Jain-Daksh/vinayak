@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 body {
-  font-family: 'PT Sans', sans-serif;
-}
-
-section {
-  margin-top: 5%;
+  font-family: "kosi-heading","helveticaneue-light",helvetica neue light,helvetica neue,Helvetica,Arial,lucida grande,sans-serif;
 }
 
 text-heading{
@@ -22,4 +18,32 @@ section{
 */
 .contacticon{
   margin-right: 1.5%;
+}
+
+.heading{
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: "kosi-heading","helveticaneue-light",helvetica neue light,helvetica neue,Helvetica,Arial,lucida grande,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraph{
+  line-height: 1.2;
+  font-family: "kosi-heading","helveticaneue-light",helvetica neue light,helvetica neue,Helvetica,Arial,lucida grande,sans-serif;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  line-height: 24px;
+  font-size: 16px;
+}
+.marginheading{
+  margin-top: 5%;
+}
+.contact-us-paragraph{
+  margin-top: 15px;
+  color: gray;
 }

@@ -2,6 +2,7 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 1.7;
+  font-family: "kosi-heading","helveticaneue-light",helvetica neue light,helvetica neue,Helvetica,Arial,lucida grande,sans-serif;
 }
 .about-text-heading{
   margin-bottom: 3%;
@@ -9,3 +10,11 @@
 .About-text{
   padding-bottom: 2%;
 }
+
+  /*
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  line-height: 24px;
+  font-size: 16px;
+  */

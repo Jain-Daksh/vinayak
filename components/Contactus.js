@@ -4,17 +4,16 @@ import {  Map  , Phone } from 'react-bootstrap-icons';
 function Contactus() {
   return (
     <div>
-      <section id='contact'>
+      <section id='contact' className='marginheading'>
         <div className="container">
           <div className="row">
             <div className="col col-xl-6 col-lg-6  col-md-6 col-sm-12 col-xs-12">
-              <h1>Contact US</h1>
-              <h5>Address</h5>
-              <p className="inline">
+              <h1 className='heading mb-3'>Contact US</h1>
+              <p className="inline contact-us-paragraph">
                 <Map className="fa fa-map-marker contacticon"></Map>
                 Plot No, 2, 100 Feet Rd, near Jain Transport, Shobhagpura <br></br> Udaipur, Rajasthan 313001
               </p>
-              <p className="inline">
+              <p className="inline ">
                 <Phone  className="fa fa-phone contacticon"></Phone>
                 <a href="tel:+919694985000">096949 85000</a>
               </p>

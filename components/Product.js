@@ -15,11 +15,11 @@ import Image11 from '../public/rack2-removebg-preview.png'
 function Product() {
   return (
     <div>
-      <section className="product" id="product">
+      <section className="product marginheading" id="product">
         <div className="container">
-          <div className="row text-center text-product">
-            <h1>Feature Products</h1>
-            <p>Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</p>
+          <div className="row text-center mb-5">
+            <h1 className='heading mb-3'>Feature Products</h1>
+            <p className='paragraph'>Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</p>
           </div>
         </div>
 

@@ -17,14 +17,15 @@ import dynamic from "next/dynamic";
 
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
   ssr: false,
+  nav: true,
+  navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"]
 });
 
 export default function Slider() {
   return (
     <div>
-      <section className="slidername">
+      <section className="slidername marginheading">
       <div className="row text-center">
-  
             <OwlCarousel 
             loop
             items={4}
@@ -66,8 +67,9 @@ export default function Slider() {
                     className="image-shop"
                   />
                 </div>
-                </OwlCarousel>
-                </div>
+            </OwlCarousel>
+            
+        </div>
       </section>
     </div>
   );

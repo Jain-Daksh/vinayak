@@ -18,16 +18,16 @@ function Navbar() {
             </button>
             <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                <a className="nav-link active navbar-text" aria-current="page" href="#">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">About us</a>
+                <a className="nav-link navbar-text" href="#about">About us</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#product">Products</a>
+                <a className="nav-link navbar-text" href="#product">Products</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">Contact</a>
+                <a className="nav-link navbar-text" href="#contact">Contact</a>
               </li>
             </div>
           </div>

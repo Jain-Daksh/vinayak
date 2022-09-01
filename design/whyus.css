@@ -1,28 +1,27 @@
-.whyus{
-  margin-top: 5%;
-  
-}
+
 .fa-thumbs-up{
   font-size: 30px;
   margin: 5px
-
 }
 .fas{
   font-size: 30px;
   margin: 5px
 }
-.whyus h1{
-  padding-bottom: 2%;
-}
-.whyusheading{
-  font-weight: bold;
-  }
+
   .whyuspara{
     color: gray;
   }
-  .whyuscontant{
-    text-align: center;
-  }
-  .whyusmainheading{
-    padding: 3%;
-  }
+
+.infoheading{
+  margin: 0 0 0.6180469716em;
+  font-family: kosi-heading,helveticaneue-light,helvetica neue light,helvetica neue,Helvetica,Arial,lucida grande,sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.3636363636;
+    color: #111111;
+  
+}
+
+/*
+    color: var(--accent);
+  */  

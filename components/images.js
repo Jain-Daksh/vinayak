@@ -9,7 +9,7 @@ import Image6 from '../public/chair.webp'
 function Images() {
   return (
     <div>
-      <section className="imagegallery">
+      <section className="imagegallery marginheading" >
         <div>
           <div className="container text-center">
             <div className="row g-4 x-5">
