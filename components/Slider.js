@@ -1,3 +1,4 @@
+
 import React from "react";
 import Image from 'next/image'
 import Image1 from '../public/table.jpg'
@@ -74,3 +75,4 @@ export default function Slider() {
     </div>
   );
 }
+
