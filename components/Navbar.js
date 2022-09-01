@@ -6,10 +6,10 @@ import Image from 'next/image';
 import Image1 from '../public/output-onlinepngtools.png'
 function Navbar() {
   return (
-    <div className='navbardiv'>
-      <section className='navbarheader'>
+    <div className=''>
+      <section className='navbardiv'>
         <Nav className="navbar navbar-expand-lg navbar-light bg-light" id="navbar-2">
-          <div className="container-fluid">
+          <div className="container">
             <Image src={Image1} className="logo " width="80"
               height="80" id='logo' ></Image>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"

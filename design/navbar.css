@@ -4,18 +4,24 @@
 }
 .navbarheader{
 	margin-top: 0% !important;
+	/*
 	margin-left: 5% !important;
 	margin-right: 5% !important;
+	*/
 	
 }
 .navbardiv{
 	background-color: #F5E5D7 !important;
-
+	margin-top: 0% !important;
+	margin-left: 0% !important;
+	margin-right: 0% !important;
 }
+/*
 .navbar-collapse{
 	padding-left: 1%;
 	padding-right: 1%;
 }
+*/
 .navbar li{
   display:inline-block;
 }

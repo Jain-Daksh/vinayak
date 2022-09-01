@@ -7,52 +7,51 @@
   font-size: large;
   font-weight: bolder;
 }
-.carouselslide{
-  background-color: #F5E5D7;
-  
-}
-
 .buttoncrousel{
   background-color: #FDF3F1;
   color: black;
   font-size: 18px;
 }
-
 .homepagediv{
   background-color: #F5E5D7 !important;
 }
-
 #colorCarousel{
   background-color: #F5E5D7 !important;
-
 }
 #colorCarousel{
+/*
   margin-left: 5% !important;
   margin-right: 5% !important;
+*/
   margin-top: 0% !important;
 }
-
-
 .homepagetext{
 line-height: 1.5;
 font-weight: bold;
 }
-
 .homepage-text-heading{
   padding: 1%;
   line-height: 2;
 }
-
 .hoempagebutton{
   padding: 5%;
 }
-
 .hoempagebutton{
   position: relative;
   bottom: 50%;
 }
-
-
 .carousel-inner{
   height: fit-content;
+}
+
+.carousel-indicators .active{
+  background-color: red !important;
+}
+.carousel-control-prev-icon{
+  background-color: black;
+  color: blueviolet !important;
+}
+.carousel-control-next-icon{
+  background-color: black;
+  color: blueviolet !important;
 }
