@@ -11,11 +11,11 @@ function Contactus() {
               <h1 className='heading mb-3'>Contact US</h1>
               <p className="inline contact-us-paragraph">
                 <Map className="fa fa-map-marker contacticon"></Map>
-                Plot No, 2, 100 Feet Rd, near Jain Transport, Shobhagpura <br></br> Udaipur, Rajasthan 313001
+                Plot No E-1-229 Riico Industrial area, behind haveli marbal, Sukher, Rajasthan 313001 <br></br>
               </p>
               <p className="inline ">
-                <Phone  className="fa fa-phone contacticon"></Phone>
-                <a href="tel:+919694985000">096949 85000</a>
+                <Phone  className="fa fa-phone contacticon "></Phone>
+                <a className='contact-us-paragraph' href="tel:+919694985000">096949 85000</a>
               </p>
 
             </div>
