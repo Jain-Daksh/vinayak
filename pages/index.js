@@ -15,21 +15,21 @@ import Footer from '../components/Footer'
 import Slider from '../components/Slider'
 export default function Home() {
   return (
-  <div>
-    <Head>
-      <title>Vinayak Steel Furniture</title>
-    </Head>
-    <Navbar />
-    <HomePage />
-    <AboutUs />
-    <Product />
-    <Whyus />
-    <NewArrivals />
-    <Info />
-    <Slider />
-    <Contactus />
-    <FooterWebsite />
-    <Footer />
-  </div>
+    <div>
+      <Head>
+        <title>Vinayak Steel Furniture</title>
+      </Head>
+      <Navbar />
+      <HomePage />
+      <AboutUs />
+      <Product />
+      <Whyus />
+      <NewArrivals />
+      <Info />
+      <Slider />
+      <Contactus />
+      <FooterWebsite />
+      <Footer />
+    </div>
   )
 }

@@ -1,0 +1,55 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "FurnitureStore",
+    "name": "Vinayak Steel Furniture",
+    "image": "https://www.vinayaksteelfurniture.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Foutput-onlinepngtools.49af9d2b.png&w=96&q=75",
+    "url": "https://www.vinayaksteelfurniture.com/",
+    "og:site_name": "Vinayak Steel Furniture",
+    "og:site_url": "https://www.vinayaksteelfurniture.com",
+    "og:title": "Vinayak Steel Furniture",
+    "og:image": "https://www.vinayaksteelfurniture.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Foutput-onlinepngtools.49af9d2b.png&w=96&q=75",
+    "telephone": "9694985000",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "100 Ft Road Shobhagpura",
+      "addressLocality": "Udaipur",
+      "addressRegion": "Rajasthan",
+      "postalCode": "313001",
+      "addressCountry": "IN"
+    },
+    "description": "Trying to find a Furniture Shop in Udaipur? Stop in to Vinayak Steel Furniture. It offer a wide range of home and bespoke furniture.",
+    "og:description": "Trying to find a Furniture Shop in Udaipur? Stop in to Vinayak Steel Furniture. It offer a wide range of home and bespoke furniture.",
+    "keywords": "Vinayak Steel Furniture, best steel furniture in Udaipur, Udaipur best steel furniture, steel furniture agencies in udaipur, furniture stores near me, office furniture in udaipur, school furniture in udaipur",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "10:00",
+      "closes": "21:00"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SocialMediaPosting",
+    "mainEntity": [
+      {
+        "@type": "SocialMediaPosting",
+        "@id": "https://www.facebook.com/vinayaksteelfurniture/"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPoint",
+    "telephone": "+91-9694985000",
+    "contactType": "customer service"
+  }
+]
