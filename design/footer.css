@@ -9,3 +9,11 @@
 footer li{
   display:inline-block; 
 }
+.footer-website{
+  font-size: 13px !important;
+}
+@media screen and (max-device-width: 987px){
+.footerLink {
+    float: left !important;
+}
+}

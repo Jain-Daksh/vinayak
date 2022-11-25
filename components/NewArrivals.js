@@ -55,7 +55,7 @@ function NewArrivals() {
 
                 <h5 >Limited edition</h5>
                 <br></br>
-                <button type="button" className="btn btn-dark buttonnewarrival mt-3 mb-3"><a href="https://api.whatsapp.com/send?phone=919694985000" target="_blank">Order Now</a></button>
+                <button type="button" className="btn btn  btn-dark buttonnewarrival mt-3 mb-3"><a href="https://api.whatsapp.com/send?phone=919694985000" target="_blank">Order Now</a></button>
               </div>
             </div>
           </div>

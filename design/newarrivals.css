@@ -70,7 +70,10 @@ newarrival-text-h5 {
     padding: 16px 41px;
 }
 .buttonnewarrival:hover{
-  background-color: cadetblue;
+  background-color: #F5E5D7;
+}
+.buttonnewarrival a {
+  color: black !important;
 }
 a {
   color: black;

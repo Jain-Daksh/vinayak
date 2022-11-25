@@ -7,7 +7,7 @@ function Info() {
       <section className="info marginheading">
         <div className="container">
           <div className="row text-center">
-            <div className="col col-xl-3 col-lg-3 col-sm-12 col-xs-12 col-md-6 col-12">
+            <div className="col col-xl-3 col-lg-3 col-sm-12 col-xs-12 col-md-6 col-12 mb-2">
               <div className="card card-size">
                 <span className="elementor-icon elementor-animation-">
                   <HandThumbsUp className="bi bi-alarm "></HandThumbsUp>
@@ -16,7 +16,7 @@ function Info() {
                 <p className="whyuspara mt-2 ">All our products are reliable </p>
               </div>
             </div>
-            <div className="col col-xl-3 col-lg-3 col-sm-12 col-xs-12 col-md-6 col-12">
+            <div className="col col-xl-3 col-lg-3 col-sm-12 col-xs-12 col-md-6 col-12 mb-2">
               <div className="card card-size">
                 <span className="elementor-icon elementor-animation-">
                   <Bookmark className="bi bi-bookmark-star"></Bookmark>
@@ -25,7 +25,7 @@ function Info() {
                 <p className="whyuspara mt-2">Deliver goods all over India </p>
               </div>
             </div>
-            <div className="col col-xl-3 col-lg-3 col-sm-12 col-xs-12 col-md-6 col-12">
+            <div className="col col-xl-3 col-lg-3 col-sm-12 col-xs-12 col-md-6 col-12 mb-2">
               <div className="card card-size">
                 <span className="elementor-icon elementor-animation-">
                   <CreditCard className='bi bi-credit-card'></CreditCard>
