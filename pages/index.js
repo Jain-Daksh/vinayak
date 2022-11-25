@@ -13,11 +13,16 @@ import Images from '../components/images'
 import FooterWebsite from '../components/Footer-website'
 import Footer from '../components/Footer'
 import Slider from '../components/Slider'
+import seoDetails from './Schema.json'
 export default function Home() {
   return (
     <div>
       <Head>
         <title>Vinayak Steel Furniture</title>
+        <script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{ __html: JSON.stringify(seoDetails) }}
+				/>
       </Head>
       <Navbar />
       <HomePage />
